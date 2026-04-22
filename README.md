@@ -24,13 +24,12 @@ The L1 penalty encourages many gates to become zero, resulting in a sparse netwo
 
 ---
 
-## Results (Expected Trend)
+## Final Results
 
-| Lambda | Accuracy | Sparsity |
-|--------|---------|----------|
-| Low    | High    | Low      |
-| Medium | Medium  | Medium   |
-| High   | Lower   | High     |
+| Model          | Accuracy | Sparsity |
+|----------------|---------|----------|
+| Normal MLP     | 53.52%  | 0%       |
+| Pruned MLP     | 46.31%  | 30.05%   |
 
 ---
 
